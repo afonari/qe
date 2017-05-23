@@ -1,81 +1,4 @@
-SCHRODINGER = /home/fonari/QE-builds/2017-3
-Current branch master is up to date.
-Already on 'master'
-Current branch master is up to date.
-mmshare branch = master (b762a8f)
-Using VERSION from /home/fonari/QE-builds/2017-3/mmshare-v3.9/Makefile
- 
-Setting up the build environment.
-
-Using OS_CPU of 'Linux-x86_64'.
-
-Setting OS_CPU to Linux-x86_64.
-
-Setting SCHRODINGER_DEPRECATION_WARNING to TRUE.
-
-Adding dirs to the beginning of PATH:
-  /software/lib/Linux-x86_64/python-2.7.13/bin
-
-Adding dirs to the beginning of LD_LIBRARY_PATH:
-  /software/lib/Linux-x86_64/python-2.7.13/lib
-  /software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib
-
-Adding dirs to the beginning of DYLD_LIBRARY_PATH:
-  fake_path_for_tcsh_linux
-
-Setting INTEL to /software/lib/Linux-x86_64/ifort_2017.1.132.
-
-Setting INTEL_LICENSE_FILE to '28518@nyc-lic-intel.schrodinger.com:28518@pdx-lic-intel.schrodinger.com'.
-
-Setting GOROOT to /software/lib/Linux-x86_64/go-1.8.1.
-
-Setting _SCHRODINGER_BUILD_PERL to /software/lib/Linux-x86_64/perl-5.14.2/bin/perl.
-
-Setting PATH to "/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/scr/fonari/mmshare/build_tools/waf:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin".
-
-Setting QTDIR to /software/lib/Linux-x86_64/qt-5.6.2-build2.
-
-Setting VALGRIND_LIB to /software/lib/Linux-x86_64/valgrind-3.11.0/lib/valgrind.
-
-Setting RELEASE_NAME to 2017-3.
-
-Setting SCHRODINGER_QT5 to True.
-
-Setting LD_LIBRARY_PATH to "/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib".
-
-Setting PERL5LIB to ""/software/lib/Linux-x86_64/perl-5.14.2/lib/5.14.2:/software/lib/Linux-x86_64/perl-5.14.2/lib/site_perl/5.14.2"".
-
-Setting PYTHONWARNINGS to default,ignore::PendingDeprecationWarning.
-
-Setting SCHRODINGER_PERL_SITELIB to /software/lib/Linux-x86_64/perl-5.14.2/lib/site_perl/5.14.2.
-
-Setting WAFCACHE to "/scr/fonari/.wafcache".
-
-Setting SCHRODINGER_BUILD_ENV_VERSION to 8bdffe00bda619b3275cdc3c815152a2f9bbb96c.
-
-Setting GOVER to 1.8.1.
-
-Setting INTEL_MKL to /software/lib/Linux-x86_64/ifort_2017.1.132/mkl.
-
-Setting SCHRODINGER_PERL_PRIVLIB to /software/lib/Linux-x86_64/perl-5.14.2/lib/5.14.2.
-
-Setting JAVA_HOME to /software/lib/Linux-x86_64/jdk1.8.0_60.
-
-Preparing Makefile in /home/fonari/QE-builds/2017-3/mmshare-v3.9:
-  /scr/fonari/mmshare/build_tools/prepmake2 /scr/fonari/mmshare/build_tools /scr/fonari/mmshare /scr/fonari/mmshare/build_tools/mmshare-macros Linux-x86_64
-  mv -f Makefile.tmp Makefile
- 
-Variables: 
-            BUILD_DIR: /home/fonari/QE-builds/2017-3/mmshare-v3.9
-              SRC_DIR: /scr/fonari/mmshare
-                TOOLS: /scr/fonari/mmshare/build_tools
-              MMSHARE: mmshare-v3.9
-      MMSHARE_VERSION: 39004
-       MMSHARE_NUMBER: v3.9
-         MMSHARE_EXEC: /home/fonari/QE-builds/2017-3/mmshare-v3.9/bin/Linux-x86_64
-               OS_CPU: Linux-x86_64
-              VERSION: Linux-x86_64
- 
+Inside /home/fonari/QE-builds/q-e_schrodinger
 Current branch master is up to date.
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
@@ -543,7 +466,8 @@ cd install ; make -f extlibs_makefile liblapack
 cd install ; make -f extlibs_makefile libiotk
 make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_param.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_smallbox.f90
+make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+touch fake_liblapack.a
 make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
 if test ! -d ../S3DE; then \
 	(gzip -dc ../archive/iotk-1.2.beta.tar.gz | (cd ../; tar -xvf -)) ; \
@@ -551,14 +475,15 @@ if test ! -d ../S3DE; then \
         (cp Makefile_iotk ../S3DE/iotk/src/Makefile); fi; \
 	if test -e iotk_config.h; then \
 	(cp iotk_config.h ../S3DE/iotk/include/iotk_config.h); fi; fi
-make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
-touch fake_liblapack.a
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_smallbox.f90
 rm fake_liblapack.a
-S3DE/
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+( cd LAXlib ; make TLDEPS= all || exit 1 )
+S3DE/
 S3DE/IDE/
 S3DE/IDE/check_main
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_smallbox_type.f90
+make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_types.f90
 S3DE/IDE/add_dir
 S3DE/IDE/split_line
 S3DE/IDE/OLD/
@@ -630,11 +555,7 @@ S3DE/iotk/tools/iotk
 S3DE/iotk/tools/autom4te.cache/
 S3DE/iotk/tools/autom4te.cache/output.0
 S3DE/iotk/tools/autom4te.cache/requests
-( cd LAXlib ; make TLDEPS= all || exit 1 )
 S3DE/iotk/tools/autom4te.cache/traces.0
-make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_types.f90
-cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_stick.c
 S3DE/iotk/config.status
 S3DE/iotk/sprep/
 S3DE/iotk/License
@@ -644,7 +565,6 @@ S3DE/iotk/doc/manual.txt
 S3DE/iotk/doc/file_format.txt
 S3DE/iotk/doc/binary_format.tex
 S3DE/iotk/doc/manpages
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_param.f90
 S3DE/iotk/doc/.cvsignore
 S3DE/iotk/doc/.touch
 S3DE/iotk/TODO
@@ -700,7 +620,6 @@ S3DE/iotk/src/iotk_dat+CHARACTER1_6.f90
 S3DE/iotk/src/iotk_tool_interf.f90
 S3DE/iotk/src/iotk_base.f90
 S3DE/iotk/src/iotk_dat+INTEGER1_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c distools.f90
 S3DE/iotk/src/iotk_attr+LOGICAL1_6.f90
 S3DE/iotk/src/iotk_str_interf.f90
 S3DE/iotk/src/iotk_write_interf.f90
@@ -708,7 +627,6 @@ S3DE/iotk/src/iotk_error_interf.f90
 S3DE/iotk/src/iotk_attr_interf.f90
 S3DE/iotk/src/iotk_dat+COMPLEX3_6.f90
 S3DE/iotk/src/iotk_dat+COMPLEX4_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_support.f90
 S3DE/iotk/src/iotk_str.f90
 S3DE/iotk/src/iotk_attr+CHARACTER1_0.f90
 S3DE/iotk/src/iotk_attr+INTEGER4_0.f90
@@ -720,13 +638,16 @@ S3DE/iotk/src/iotk_attr+LOGICAL1_3.f90
 S3DE/iotk/src/iotk_dat+COMPLEX1_0.f90
 S3DE/iotk/src/example3.f90
 S3DE/iotk/src/test9.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_smallbox_type.f90
 S3DE/iotk/src/iotk_attr+REAL1_3.f90
 S3DE/iotk/src/iotk_unit.f90
 S3DE/iotk/src/iotk_dat+COMPLEX1_3.f90
 S3DE/iotk/src/iotk_attr.f90
 S3DE/iotk/src/iotk_dat+INTEGER3_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_error.f90
 S3DE/iotk/src/iotk_dat+COMPLEX4_3.f90
 S3DE/iotk/src/iotk_attr+REAL4_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_param.f90
 S3DE/iotk/src/example4.f90
 S3DE/iotk/src/iotk_dat+INTEGER4_6.f90
 S3DE/iotk/src/iotk_attr+COMPLEX2_3.f90
@@ -793,7 +714,6 @@ S3DE/iotk/src/iotk_tool.f90
 S3DE/iotk/src/.cvsignore
 S3DE/iotk/src/iotk_dat+REAL4_3.f90
 S3DE/iotk/src/iotk_dat+INTEGER3_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_error.f90
 S3DE/iotk/src/iotk_dat+LOGICAL1_3.f90
 S3DE/iotk/src/test2.f90
 S3DE/iotk/src/iotk_attr+LOGICAL4_3.f90
@@ -814,7 +734,6 @@ S3DE/iotk/compiler_bugs/
 S3DE/iotk/compiler_bugs/pgi/
 S3DE/iotk/compiler_bugs/ifort/
 S3DE/iotk/compiler_bugs/g95/
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c dspev_drv.f90
 S3DE/iotk/.cvsignore
 S3DE/iotk/altsrc/
 S3DE/iotk/OPTIONS
@@ -846,26 +765,39 @@ S3DE/OPTIONS
 cd ../S3DE/iotk/src; make lib+util; 
 make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_base.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c distools.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c zhpev_drv.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c stick_base.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c transto.f90
+cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_stick.c
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c la_error.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_files_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c ptoolkit.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.ARM_LIB.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.DFTI.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c dspev_drv.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_tool_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.ESSL.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_unit_list.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c zhpev_drv.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_error_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_support.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_misc_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c transto.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_str_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c stick_base.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_fmt_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.ARM_LIB.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_xtox_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../ELPA/src -c ptoolkit.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.DFTI.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.ESSL.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX1_3.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.FFTW.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.FFTW3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr_interf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX1_6.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.SX6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_error.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_types.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_3.f90
 ar ruv libqela.a la_types.o la_error.o dspev_drv.o ptoolkit.o transto.o distools.o zhpev_drv.o la_param.o       
 ar: creating libqela.a
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_error_interf.f90
 a - la_types.o
 a - la_error.o
 a - dspev_drv.o
@@ -876,20 +808,94 @@ a - zhpev_drv.o
 a - la_param.o
 ranlib libqela.a    
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_misc_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_str_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_types.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_fmt_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_xtox_interf.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_scalar.f90
+iotk_attr+COMPLEX2_0.f90(131): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+    read(string(pos+1:pos1-1),"(G100.95)",iostat=iostat) tmpreal
+---------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c task_groups.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c scatter_mod.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_interfaces.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_parallel.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_fwinv.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_6.f90
+ar ruv libqefft.a task_groups.o scatter_mod.o fft_fwinv.o fft_scalar.o fft_scalar.ARM_LIB.o fft_scalar.DFTI.o fft_scalar.ESSL.o fft_scalar.FFTW.o fft_scalar.FFTW3.o fft_scalar.SX6.o fft_parallel.o fft_interfaces.o stick_base.o fft_smallbox.o fft_smallbox_type.o fft_support.o fft_error.o fft_stick.o fft_types.o fft_param.o       
+ar: creating libqefft.a
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_0.f90
+a - task_groups.o
+a - scatter_mod.o
+a - fft_fwinv.o
+a - fft_scalar.o
+a - fft_scalar.ARM_LIB.o
+a - fft_scalar.DFTI.o
+a - fft_scalar.ESSL.o
+a - fft_scalar.FFTW.o
+a - fft_scalar.FFTW3.o
+a - fft_scalar.SX6.o
+a - fft_parallel.o
+a - fft_interfaces.o
+a - stick_base.o
+a - fft_smallbox.o
+a - fft_smallbox_type.o
+a - fft_support.o
+a - fft_error.o
+a - fft_stick.o
+a - fft_types.o
+a - fft_param.o
+ranlib libqefft.a    
+make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_0.f90
+iotk_attr+REAL1_0.f90(129): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+    read( string(pos+1:pos1-1), "(G100.95)",iostat=iostat) val(index)
+-----------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_6.f90
+iotk_attr+REAL2_0.f90(129): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+    read( string(pos+1:pos1-1), "(G100.95)",iostat=iostat) val(index)
+-----------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_6.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_6.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat_interf.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_scan_interf.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_stream_interf.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c task_groups.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_unit_interf.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_write_interf.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_error.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c scatter_mod.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_fmt.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_stream.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_str.f90
@@ -916,99 +922,16 @@ iotk_stream.f90(1498): warning #6843: A dummy argument with an explicit INTENT(O
 subroutine iotk_stream_read_CHARACTER1(unit,header,val,setpos,getpos,noval,ierr)
 ---------------------------------------------------^
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_unit.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_interfaces.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_write.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_parallel.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_xtox.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+CHARACTER1_0.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX1_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX1_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c fft_fwinv.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX1_6.f90
-iotk_attr+COMPLEX1_0.f90(131): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
-    read(string(pos+1:pos1-1),"(G100.95)",iostat=iostat) tmpreal
----------------------------------^
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX2_6.f90
-ar ruv libqefft.a task_groups.o scatter_mod.o fft_fwinv.o fft_scalar.o fft_scalar.ARM_LIB.o fft_scalar.DFTI.o fft_scalar.ESSL.o fft_scalar.FFTW.o fft_scalar.FFTW3.o fft_scalar.SX6.o fft_parallel.o fft_interfaces.o stick_base.o fft_smallbox.o fft_smallbox_type.o fft_support.o fft_error.o fft_stick.o fft_types.o fft_param.o       
-ar: creating libqefft.a
-a - task_groups.o
-a - scatter_mod.o
-a - fft_fwinv.o
-a - fft_scalar.o
-a - fft_scalar.ARM_LIB.o
-a - fft_scalar.DFTI.o
-a - fft_scalar.ESSL.o
-a - fft_scalar.FFTW.o
-a - fft_scalar.FFTW3.o
-a - fft_scalar.SX6.o
-a - fft_parallel.o
-a - fft_interfaces.o
-a - stick_base.o
-a - fft_smallbox.o
-a - fft_smallbox_type.o
-a - fft_support.o
-a - fft_error.o
-a - fft_stick.o
-a - fft_types.o
-a - fft_param.o
-ranlib libqefft.a    
-make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_0.f90
-iotk_attr+COMPLEX2_0.f90(131): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
-    read(string(pos+1:pos1-1),"(G100.95)",iostat=iostat) tmpreal
----------------------------------^
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX3_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+COMPLEX4_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER1_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER2_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER3_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+INTEGER4_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL1_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL2_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL3_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+LOGICAL4_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL1_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_0.f90
-iotk_attr+REAL1_0.f90(129): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
-    read( string(pos+1:pos1-1), "(G100.95)",iostat=iostat) val(index)
------------------------------------^
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_3.f90
-iotk_attr+REAL2_0.f90(129): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
-    read( string(pos+1:pos1-1), "(G100.95)",iostat=iostat) val(index)
------------------------------------^
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL2_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL3_6.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_0.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_3.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_attr+REAL4_6.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+CHARACTER1_0.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+CHARACTER1_3.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+CHARACTER1_6.f90
+iotk_attr+COMPLEX1_0.f90(131): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+    read(string(pos+1:pos1-1),"(G100.95)",iostat=iostat) tmpreal
+---------------------------------^
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+COMPLEX1_0.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+COMPLEX1_3.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c iotk_dat+COMPLEX1_6.f90
@@ -1203,10 +1126,10 @@ make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/sr
 make[3]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
 make[3]: Nothing to be done for `loclib_only'.
 make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+mpif90 -static-intel  -o iotk_print_kinds.x iotk_print_kinds.o libiotk.a   
 make[3]: Nothing to be done for `loclib_only'.
 make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
 mpif90 -static-intel  -o iotk.x iotk.o libiotk.a   
-mpif90 -static-intel  -o iotk_print_kinds.x iotk_print_kinds.o libiotk.a   
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
 cd ../bin; ln -fs ../S3DE/iotk/tools/iotk .; \
 	ln -fs ../S3DE/iotk/src/iotk.x .; \
@@ -1231,6 +1154,7 @@ kind.f90(44): remark #8291: Recommended relationship between field width 'W' and
 --------------------------------------------------------------------^
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c coulomb_vcut.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c fsockets.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c wrappers.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c libxc_funcs.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mp_base.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mp_wave.f90
@@ -1292,7 +1216,7 @@ mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XS
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c electrons_base.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mp_pools.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c fcp_variables.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c wrappers.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c kernel_table.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c gvecw.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c libxc.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c plugin_arguments.f90
@@ -1305,6 +1229,7 @@ mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XS
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c more_functionals.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c metagga.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c sph_bes.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c sph_dbes.f90
 metagga.f90(1392): warning #6843: A dummy argument with an explicit INTENT(OUT) declaration is not given an explicit value.   [SX]
 subroutine tb09cxc(rho, grho, tau, sx, sc, v1x, v2x,v3x,v1c, v2c,v3c)
 -----------------------------------^
@@ -1329,7 +1254,6 @@ subroutine tb09cxc(rho, grho, tau, sx, sc, v1x, v2x,v3x,v1c, v2c,v3c)
 metagga.f90(1392): warning #6843: A dummy argument with an explicit INTENT(OUT) declaration is not given an explicit value.   [V3C]
 subroutine tb09cxc(rho, grho, tau, sx, sc, v1x, v2x,v3x,v1c, v2c,v3c)
 -----------------------------------------------------------------^
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c sph_dbes.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c ylmr2.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c wgauss.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c w0gauss.f90
@@ -1348,7 +1272,8 @@ mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XS
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c error_handler.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c fd_gradient.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c fft_custom.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c kernel_table.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xc_rVV10.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xc_vdW_DF.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c generate_function.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c pseudo_types.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mp_diag.f90
@@ -1370,21 +1295,20 @@ mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XS
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c check_stop.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c compute_dipole.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c ions_base.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xc_rVV10.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xc_vdW_DF.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c funct.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mp_global.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexml.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xml_io_base.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_upf_v2.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexsd.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexsd_reader_module.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c autopilot.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c constraints_module.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c funct.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c gth.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c mm_dispersion.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c pw_dot.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_cards.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_xml_cards.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xml_io_base.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xml_input.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_ncpp.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_uspp.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c upf.f90
@@ -1396,13 +1320,12 @@ read_uspp.f90(685): remark #8291: Recommended relationship between field width '
     read( iunps, '(4e17.11,i5)',err=100, iostat=ios ) &
 ---------------------^
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c tsvdw.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexsd_input.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c gth.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexsd.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qmmm.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_xml.f90
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c xml_input.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_pseudo.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c read_input.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../iotk/src -I../ELPA/src -I../FFTXlib -I../LAXlib -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I. -c qexsd_input.f90
 ar ruv libqemod.a atom.o autopilot.o basic_algebra_routines.o becmod.o bfgs_module.o bspline.o bz_form.o cell_base.o check_stop.o clocks.o command_line_options.o compute_dipole.o constants.o constraints_module.o control_flags.o coulomb_vcut.o electrons_base.o environment.o error_handler.o fcp_variables.o fd_gradient.o fft_base.o fft_custom.o fsockets.o funct.o generate_function.o gth.o gvecw.o input_parameters.o invmat.o io_files.o io_global.o ions_base.o kernel_table.o kind.o libxc.o libxc_funcs.o mm_dispersion.o mp.o mp_bands.o mp_base.o mp_diag.o mp_exx.o mp_global.o mp_images.o mp_pools.o mp_wave.o mp_world.o noncol.o open_close_input_file.o parallel_include.o parameters.o parser.o paw_variables.o plugin_flags.o plugin_arguments.o plugin_variables.o pseudo_types.o pw_dot.o qexml.o qmmm.o radial_grids.o random_numbers.o read_cards.o read_input.o read_namelists.o read_ncpp.o read_pseudo.o read_upf_v1.o read_upf_v2.o read_uspp.o read_xml.o read_xml_cards.o read_xml_fields.o recvec.o recvec_subs.o run_info.o space_group.o set_signal.o setqf.o splinelib.o timestep.o tsvdw.o upf.o upf_to_internal.o uspp.o version.o wannier_gw.o wannier_new.o wave_base.o wavefunctions.o wrappers.o write_upf_v2.o ws_base.o xc_vdW_DF.o xc_rVV10.o xml_input.o xml_io_base.o io_base.o qes_module.o qes_types.o qes_libs.o qexsd.o qexsd_input.o qexsd_reader_module.o hdf5_qe.o xsf.o wypos.o zdotc_wrapper.o zvscal.o atomic_number.o capital.o cryst_to_car.o erf.o expint.o find_free_unit.o functionals.o generate_k_along_lines.o lsda_functionals.o more_functionals.o has_xml.o inpfile.o int_to_char.o latgen.o linpack.o metagga.o matches.o plot_io.o radial_gradients.o rgen.o recips.o remove_tot_torque.o set_hubbard_l.o set_hubbard_n.o simpsn.o sort.o sph_bes.o sph_dbes.o trimcheck.o test_input_file.o date_and_tim.o volume.o dylmr2.o ylmr2.o wgauss.o w0gauss.o w1gauss.o deviatoric.o       
 ar: creating libqemod.a
 a - atom.o
@@ -1570,9 +1493,9 @@ cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//includ
 cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c ptrace.c
 cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c sockets.c
 cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c qmmm_aux.c
-cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c qsort.c
 qmmm_aux.c: In function ‘match_element’:
 qmmm_aux.c:186: warning: incompatible implicit declaration of built-in function ‘fabs’
+cc -O3 -D__DFTI -D__MPI -D__XSD -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include  -c qsort.c
 ar ruv clib.a customize_signals.o stack.o c_mkdir.o copy.o cptimer.o eval_infix.o indici.o md5.o md5_from_file.o memstat.o ptrace.o sockets.o qmmm_aux.o qsort.o
 ar: creating clib.a
 a - customize_signals.o
@@ -2097,8 +2020,8 @@ mpif90 -static-intel  -o generate_rVV10_kernel_table.x \
 		generate_rVV10_kernel_table.o ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a libpw.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-05-22/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../PW/src/generate_vdW_kernel_table.x . )
 ( cd ../../bin; ln -fs ../PW/src/generate_rVV10_kernel_table.x . )
-( cd ../../bin; ln -fs ../PW/src/manypw.x . )
 ( cd ../../bin; ln -fs ../PW/src/pw.x . )
+( cd ../../bin; ln -fs ../PW/src/manypw.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
 ( cd tools ; make all || exit 1 )
 make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
@@ -2108,17 +2031,17 @@ mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XS
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c ev_xml.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c kpoints.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c pwi2xsf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c ev.f90
 mpif90 -static-intel  -o kpoints.x \
 		kpoints.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-05-22/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
-mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c ev.f90
 mpif90 -static-intel  -o dist.x \
 		dist.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-05-22/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 mpif90 -static-intel  -o pwi2xsf.x \
 		pwi2xsf.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-05-22/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PW/tools/kpoints.x . )
-( cd ../../bin ; ln -fs ../PW/tools/pwi2xsf.x . )
 mpif90 -static-intel  -o ev.x \
 		ev.o ev_xml.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-05-22/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PW/tools/pwi2xsf.x . )
 ( cd ../../bin ; ln -fs ../PW/tools/dist.x . )
 ( cd ../../bin ; ln -fs ../PW/tools/ev.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
