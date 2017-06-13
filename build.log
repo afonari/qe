@@ -1,17 +1,15 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
 From https://github.com/QEF/q-e_schrodinger
-   90dcbec..090b87e  master     -> origin/master
-   402ce89..02e4ae2  v6.0-2016-4 -> origin/v6.0-2016-4
- * [new tag]         v6.0-2016-4-oldgcc -> v6.0-2016-4-oldgcc
+   090b87e..38d036e  master     -> origin/master
 First, rewinding head to replay your work on top of it...
-Fast-forwarded master to 090b87e86d29c14e097f79df2e5cb141e4ca7bab.
+Fast-forwarded master to 38d036ef28d2c8dadeccefaf4002ab001f495c0f.
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Current branch master is up to date.
-q-e_schrodinger branch = master (090b87e)
-MMSHARE_DIR = /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9
-LD_LIBRARY_PATH = /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
-PATH = /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/scr/fonari/mmshare/build_tools/waf:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
+q-e_schrodinger branch = master (38d036e)
+MMSHARE_DIR = /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9
+LD_LIBRARY_PATH = /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
+PATH = /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/scr/fonari/mmshare/build_tools/waf:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
 MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 touch make.inc 
 for dir in \
@@ -194,73 +192,6 @@ rm -f ../bin/d3_*.x
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
 make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
 if test -d ../LAPACK; then (cd ../LAPACK; make clean); fi
-make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1'
-( cd INSTALL; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/INSTALL'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/INSTALL'
-( cd BLAS/SRC; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/SRC'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/SRC'
-( cd CBLAS; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS'
-cd src && make clean
-make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS/src'
-rm -f *.o a.out core 
-make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS/src'
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS'
-( cd SRC; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/SRC'
-rm -f *.o DEPRECATED/*.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/SRC'
-( cd SRC/VARIANTS; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/SRC/VARIANTS'
-rm -f cholesky/RL/cpotrf.o cholesky/RL/dpotrf.o cholesky/RL/spotrf.o cholesky/RL/zpotrf.o cholesky/TOP/cpotrf.o cholesky/TOP/dpotrf.o cholesky/TOP/spotrf.o cholesky/TOP/zpotrf.o lu/CR/cgetrf.o lu/CR/dgetrf.o lu/CR/sgetrf.o lu/CR/zgetrf.o lu/LL/cgetrf.o lu/LL/dgetrf.o lu/LL/sgetrf.o lu/LL/zgetrf.o lu/REC/cgetrf.o lu/REC/dgetrf.o lu/REC/sgetrf.o lu/REC/zgetrf.o qr/LL/cgeqrf.o qr/LL/dgeqrf.o qr/LL/sgeqrf.o qr/LL/zgeqrf.o  qr/LL/sceil.o \
-	      LIB/*.a
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/SRC/VARIANTS'
-( cd TESTING/MATGEN; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/MATGEN'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/MATGEN'
-( cd LAPACKE; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE'
-cd src && make clean
-make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE/src'
-rm -f *.o
-make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE/src'
-cd utils && make clean
-make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE/utils'
-rm -f *.o
-make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE/utils'
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/LAPACKE'
-( cd TESTING/LIN; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/LIN'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/LIN'
-( cd TESTING/EIG; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/EIG'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/TESTING/EIG'
-( cd TESTING; rm -f xlin* xeig* )
-( cd BLAS/TESTING; make -f Makeblat1 clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-( cd BLAS/TESTING; make -f Makeblat2 clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-( cd BLAS/TESTING; make -f Makeblat3 clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-rm -f *.o
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/BLAS/TESTING'
-( cd BLAS; rm -f xblat* )
-( cd CBLAS/testing; make clean )
-make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS/testing'
-rm -f core *.o *.out x*
-make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1/CBLAS/testing'
-make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/lapack-3.6.1'
 if test -d ../ELPA; then (cd ../ELPA; make clean); fi
 if test -d ../S3DE; then (cd ../S3DE; make clean); fi
 make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE'
@@ -476,12 +407,12 @@ in /opt/intel/mkl*/lib/em64t: checking for library containing dgemm... no
 MKL not found
 in /opt/intel/mkl/lib: checking for library containing dgemm... no
 MKL not found
-in /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/lib: checking for library containing dgemm... no
+in /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/lib: checking for library containing dgemm... no
 MKL not found
-in /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64: checking for library containing dgemm... -lmkl_intel_lp64
-setting BLAS_LIBS... -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64 -lmkl_sequential -lmkl_core
+in /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64: checking for library containing dgemm... -lmkl_intel_lp64
+setting BLAS_LIBS... -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64 -lmkl_sequential -lmkl_core
 checking for library containing dspev... none required
-checking FFT... in /nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64: checking for DftiComputeForward in -lmkl_intel_lp64... yes
+checking FFT... in /nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64: checking for DftiComputeForward in -lmkl_intel_lp64... yes
 checking for /opt/intel/Compiler/*/*/mkl/include/mkl_dfti.f90... no
 checking for /opt/intel/mkl/*/include/mkl_dfti.f90... no
 checking for /opt/intel/mkl*/include/mkl_dfti.f90... no
@@ -516,7 +447,7 @@ but may fail if they have been installed in non-standard locations.
 If a required library is not found, the local copy will be compiled.
 
 The following libraries have been found:
-  BLAS_LIBS=-L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core
+  BLAS_LIBS=-L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core
   LAPACK_LIBS=
   FFT_LIBS=
   
@@ -2078,19 +2009,19 @@ a - wannier_enrg.o
 a - wyckoff.o
 ranlib libpw.a
 mpif90 -static-intel  -o pw.x \
-	   pwscf.o  libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	   pwscf.o  libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../PW/src/pw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -c manypw.f90
 mpif90 -static-intel  -o manypw.x \
-	 manypw.o  libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	 manypw.o  libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../PW/src/manypw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -c generate_vdW_kernel_table.f90
 mpif90 -static-intel  -o generate_vdW_kernel_table.x \
-		generate_vdW_kernel_table.o ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a libpw.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		generate_vdW_kernel_table.o ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a libpw.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../PW/src/generate_vdW_kernel_table.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -c generate_rVV10_kernel_table.f90
 mpif90 -static-intel  -o generate_rVV10_kernel_table.x \
-		generate_rVV10_kernel_table.o ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a libpw.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		generate_rVV10_kernel_table.o ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a libpw.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../PW/src/generate_rVV10_kernel_table.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
 ( cd tools ; make all || exit 1 )
@@ -2099,20 +2030,20 @@ if test -n "" ; then \
 	( cd ../.. ; make  || exit 1 ) ; fi
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c dist.f90
 mpif90 -static-intel  -o dist.x \
-		dist.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		dist.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PW/tools/dist.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c ev_xml.f90
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c ev.f90
 mpif90 -static-intel  -o ev.x \
-		ev.o ev_xml.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		ev.o ev_xml.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PW/tools/ev.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c kpoints.f90
 mpif90 -static-intel  -o kpoints.x \
-		kpoints.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		kpoints.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PW/tools/kpoints.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../src -I.  -c pwi2xsf.f90
 mpif90 -static-intel  -o pwi2xsf.x \
-		pwi2xsf.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pwi2xsf.o ../src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a ../../clib/clib.a ../../iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PW/tools/pwi2xsf.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
@@ -2205,106 +2136,106 @@ a - write_io_header.o
 a - write_hamiltonians.o
 ranlib libpp.a
 mpif90 -static-intel  -o average.x \
-		average.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		average.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/average.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c bands.f90
 mpif90 -static-intel  -o bands.x \
-		bands.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		bands.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/bands.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c dos.f90
 mpif90 -static-intel  -o dos.x \
-		dos.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		dos.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/dos.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c epsilon.f90
 mpif90 -static-intel  -o epsilon.x epsilon.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-	/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/epsilon.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c initial_state.f90
 mpif90 -static-intel  -o initial_state.x \
 		initial_state.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/initial_state.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c fermisurface.f90
 mpif90 -static-intel  -o fs.x \
-		fermisurface.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		fermisurface.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/fs.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c plan_avg.f90
 mpif90 -static-intel  -o plan_avg.x \
 		plan_avg.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/plan_avg.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c plotband.f90
 mpif90 -static-intel  -o plotband.x \
-		plotband.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		plotband.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/plotband.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c plotproj.f90
 mpif90 -static-intel  -o plotproj.x \
-		plotproj.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		plotproj.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/plotproj.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c plotrho.f90
 mpif90 -static-intel  -o plotrho.x \
-		plotrho.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		plotrho.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/plotrho.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c poormanwannier.f90
 mpif90 -static-intel  -o pmw.x \
 		poormanwannier.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pmw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c postproc.f90
 mpif90 -static-intel  -o pp.x \
 		postproc.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pp.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c projwfc.f90
 mpif90 -static-intel  -o projwfc.x \
-		projwfc.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		projwfc.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/projwfc.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c pawplot.f90
 mpif90 -static-intel  -o pawplot.x \
-		pawplot.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pawplot.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c sumpdos.f90
-mpif90 -static-intel  -o sumpdos.x sumpdos.o ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+mpif90 -static-intel  -o sumpdos.x sumpdos.o ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/sumpdos.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c pw2wannier90.f90
 mpif90 -static-intel  -o pw2wannier90.x \
-		pw2wannier90.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pw2wannier90.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pw2wannier90.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c pw_export.f90
 mpif90 -static-intel  -o pw_export.x \
-		pw_export.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pw_export.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pw_export.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c pw2gw.f90
 mpif90 -static-intel  -o pw2gw.x \
-		pw2gw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pw2gw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pw2gw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c wannier_ham.f90
 mpif90 -static-intel  -o wannier_ham.x \
-	wannier_ham.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	wannier_ham.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/wannier_ham.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c wannier_plot.f90
 mpif90 -static-intel  -o wannier_plot.x \
-	wannier_plot.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	wannier_plot.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/wannier_plot.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c molecularpdos.f90
 mpif90 -static-intel  -o molecularpdos.x \
-		molecularpdos.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		molecularpdos.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/molecularpdos.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c pw2bgw.f90
 mpif90 -static-intel  -o pw2bgw.x \
-		pw2bgw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		pw2bgw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/pw2bgw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c bgw2pw.f90
 mpif90 -static-intel  -o bgw2pw.x \
-		bgw2pw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		bgw2pw.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/bgw2pw.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c wfck2r.f90
 mpif90 -static-intel  -o wfck2r.x \
-		wfck2r.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a     -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		wfck2r.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a     -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/wfck2r.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../FFTXlib -I../../LAXlib -I../../PW/src -I. -c importexport_binary.f90
 mpif90 -static-intel  -o importexport_binary.x \
 		importexport_binary.o libpp.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a \
-		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+		/home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../PP/src/importexport_binary.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PP/src'
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PP'
@@ -2429,28 +2360,819 @@ a - set_defaults.o
 a - stop_run_path.o
 ranlib libneb.a
 mpif90 -static-intel  -o neb.x \
-	neb.o  libneb.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	neb.o  libneb.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin; ln -fs ../NEB/src/neb.x . )
 mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../FFTXlib -I../../LAXlib -I../../Modules -I../../PW/src -I. -c path_interpolation.f90
 mpif90 -static-intel  -o path_interpolation.x \
-	path_interpolation.o libneb.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-02/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+	path_interpolation.o libneb.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
 ( cd ../../bin ; ln -fs ../NEB/src/path_interpolation.x . )
 make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/NEB/src'
 make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/NEB'
+( cd LR_Modules ; make TLDEPS= all || exit 1 )
+make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LR_Modules'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c lrcom.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c adddvscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c addusdbec.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c addusdbec_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c apply_dpot.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c cft_wave.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c cgsolve_all.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c cg_psi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c ch_psi_all.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c commutator_Hx_psi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dfpt_tetra_mod.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dynmat_sub.f90
+dynmat_sub.f90(92): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+     read(1,*,iostat=ios, end=30, err=30)
+------------------------------^
+dynmat_sub.f90(110): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+----------------------^
+dynmat_sub.f90(110): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+------------------------------^
+dynmat_sub.f90(111): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30) ((eps0(i,j), j=1,3), i=1,3)
+----------------------^
+dynmat_sub.f90(111): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30) ((eps0(i,j), j=1,3), i=1,3)
+------------------------------^
+dynmat_sub.f90(112): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+----------------------^
+dynmat_sub.f90(112): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+------------------------------^
+dynmat_sub.f90(113): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+----------------------^
+dynmat_sub.f90(113): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+------------------------------^
+dynmat_sub.f90(114): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+----------------------^
+dynmat_sub.f90(114): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+        read(1,*, end=30, err=30)
+------------------------------^
+dynmat_sub.f90(116): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+           read(1,*, end=30, err=30)
+-------------------------^
+dynmat_sub.f90(116): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+           read(1,*, end=30, err=30)
+---------------------------------^
+dynmat_sub.f90(117): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+           read(1,*, end=30, err=30) ((zstar(i,j,na), j=1,3),i=1,3)
+-------------------------^
+dynmat_sub.f90(117): warning #6371: A jump into a block from outside the block may have occurred.   [30]
+           read(1,*, end=30, err=30) ((zstar(i,j,na), j=1,3),i=1,3)
+---------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c h_prec.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c incdrhoscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c incdrhoscf_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dv_of_drho.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dgradcorr.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dv_rVV10.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dv_vdW_DF.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c dnonloccorr.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c newdq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c orthogonalize.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setup_nscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c set_dbecsum_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c set_int3_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c smallgq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c lr_sm1_psi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setup_dgc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c compute_vsgga.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setup_dmuxc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setup_nbnd_occ.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setup_alpha_pv.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c qdipol_cryst.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c adddvepsi_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../FFTXlib -I../Modules -I../PW/src -I. -c setqmod.f90
+ar ruv liblrmod.a adddvscf.o addusdbec.o addusdbec_nc.o apply_dpot.o cft_wave.o cgsolve_all.o cg_psi.o ch_psi_all.o commutator_Hx_psi.o dfpt_tetra_mod.o dynmat_sub.o h_prec.o incdrhoscf.o incdrhoscf_nc.o dv_of_drho.o dgradcorr.o dnonloccorr.o dv_vdW_DF.o dv_rVV10.o newdq.o orthogonalize.o setup_nscf.o set_dbecsum_nc.o set_int3_nc.o smallgq.o lr_sm1_psi.o setup_dgc.o compute_vsgga.o setup_dmuxc.o setup_nbnd_occ.o setup_alpha_pv.o qdipol_cryst.o adddvepsi_us.o setqmod.o lrcom.o       
+ar: creating liblrmod.a
+a - adddvscf.o
+a - addusdbec.o
+a - addusdbec_nc.o
+a - apply_dpot.o
+a - cft_wave.o
+a - cgsolve_all.o
+a - cg_psi.o
+a - ch_psi_all.o
+a - commutator_Hx_psi.o
+a - dfpt_tetra_mod.o
+a - dynmat_sub.o
+a - h_prec.o
+a - incdrhoscf.o
+a - incdrhoscf_nc.o
+a - dv_of_drho.o
+a - dgradcorr.o
+a - dnonloccorr.o
+a - dv_vdW_DF.o
+a - dv_rVV10.o
+a - newdq.o
+a - orthogonalize.o
+a - setup_nscf.o
+a - set_dbecsum_nc.o
+a - set_int3_nc.o
+a - smallgq.o
+a - lr_sm1_psi.o
+a - setup_dgc.o
+a - compute_vsgga.o
+a - setup_dmuxc.o
+a - setup_nbnd_occ.o
+a - setup_alpha_pv.o
+a - qdipol_cryst.o
+a - adddvepsi_us.o
+a - setqmod.o
+a - lrcom.o
+ranlib liblrmod.a    
+make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LR_Modules'
+if test -d PHonon; then \
+	(cd PHonon; make all || exit 1) ; fi
+make[1]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon'
+( cd PH ; make all || exit 1 )
+make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/PH'
+if test -n "bindir mods libs pw-lib lrmods" ; then \
+	( cd ../.. ; make bindir mods libs pw-lib lrmods || exit 1 ) ; fi
+make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger'
+test -d bin || mkdir bin
+cd install ; make -f extlibs_makefile libiotk
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+if test ! -d ../S3DE; then \
+	(gzip -dc ../archive/iotk-1.2.beta.tar.gz | (cd ../; tar -xvf -)) ; \
+	if test -e Makefile_iotk; then \
+        (cp Makefile_iotk ../S3DE/iotk/src/Makefile); fi; \
+	if test -e iotk_config.h; then \
+	(cp iotk_config.h ../S3DE/iotk/include/iotk_config.h); fi; fi
+cd ../S3DE/iotk/src; make lib+util; 
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+make[5]: Nothing to be done for `lib+util'.
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+cd ../bin; ln -fs ../S3DE/iotk/tools/iotk .; \
+	ln -fs ../S3DE/iotk/src/iotk.x .; \
+	ln -fs ../S3DE/iotk/src/iotk_print_kinds.x .; \
+	cd ../; ln -fs S3DE/iotk iotk
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+cd install ; make -f extlibs_makefile liblapack
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+touch fake_liblapack.a
+rm fake_liblapack.a
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+( cd LAXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+( cd FFTXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+( cd Modules ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( if test -x ../install/update_version ; then \
+	../install/update_version; \
+	else if test ! -f version.f90 ; then \
+	cat version.f90.in > version.f90 ; fi ; fi )	
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( cd clib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+if test -d PW ; then \
+	( cd PW ; make TLDEPS= pw-lib || exit 1) ; fi
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+( cd src ; make libpw.a || exit 1 )
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+make[5]: `libpw.a' is up to date.
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+( cd LR_Modules ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LR_Modules'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LR_Modules'
+make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c acfdtest.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phcom.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c add_dkmds.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c add_for_charges.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c add_zstar_ue.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c add_zstar_ue_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addcore.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addnlcc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addnlcc_zstar_eu_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addusddens.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addusddense.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addusdynmat.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c addusldos.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c elph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c allocate_part.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c allocate_pert.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c ramanm.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c allocate_phq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c yambo.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dfile_autoname.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dfile_star.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c elph_tetra_mod.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c bcast_ph_input.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c cch_psi_all.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c ccg_psi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c check_if_partial_dyn.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c ph_restart.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c save_ph_input.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c check_initial_status.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c check_q_points_sym.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c check_restart_recover.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c clean_pw_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c clinear.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_rec.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c close_phq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_alphasum.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_becalp.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_becsum_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_drhous.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_drhous_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_dvloc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_nldyn.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c compute_weight.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c deallocate_part.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c deallocate_phq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c d2ionq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c d2ionq_mm.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c davcio_drho.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dielec.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c elph_scdft_mod.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c do_phonon.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c drho.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c drhodv.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c drhodvloc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c drhodvnl.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c drhodvus.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvanqq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvkb3.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvpsi_e.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvqpsi_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvqpsi_us_only.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c io_dyn_mat.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dyndia.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dynmat0.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dynmat_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dynmatcc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dynmatrix.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c ef_shift.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c ep_matrix_element_wannier.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c el_ph_collect.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c elphon.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c find_equiv_sites.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c find_mode_sym.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c find_irrep.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c generate_dynamical_matrix_c.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c generate_effective_charges_c.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c gmressolve_all.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c incdrhous.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c incdrhous_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c initialize_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c init_representations.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c io_dyn_mat_old.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c io_pattern.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c localdos.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c mix_pot.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c mode_group.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c obsolete.f90
+obsolete.f90(327): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+           WRITE( stdout, '(2x,"autoval = ", e10.4)') eigen(imode)
+----------------------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c openfilq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phescf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phq_init.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phq_readin.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phq_recover.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phq_setup.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phq_summary.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phqscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c polariz.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c print_clock_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c prepare_q.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c prepare_sym_analysis.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psidspsi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psymdvscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psyme.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psym_dmag.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psym_dmage.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c punch_plot_e.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q_points.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q_points_wannier.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q2qstar_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c random_matrix.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c read_wfc_rspace_and_fwfft.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c rotate_dvscf_star.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c rotate_and_add_dyn.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c rotate_pattern_add.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c run_nscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_asr_c.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_drhoc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_int12_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_irr.f90
+set_irr.f90(137): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+           WRITE( stdout, '(2x,"autoval = ", e10.4)') eigen(imode)
+----------------------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_irr_nosym.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_irr_sym.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_small_group_of_q.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c setlocq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c sgam_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c solve_e.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c solve_e_fpol.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c solve_linter.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c star_q.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c stop_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c summarize.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c sym_and_write_zue.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c sym_def.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c sym_dmag.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c sym_dmage.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c symdvscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c symdyn_munu.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c symdynph_gq.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c syme.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c symm.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c symmorphic_or_nzb.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c transform_int_so.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c transform_int_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c transform_alphasum_nc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c transform_alphasum_so.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c tra_write_matrix.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c trntnsc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_epsilon_and_zeu.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_qplot_data.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_matrix.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_modes.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c zstar_eu.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c zstar_eu_us.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c psyme2.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c chi_test.f90
+chi_test.f90(163): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9030 format(' bnd:',i5,' ip:',i5,6e12.6)
+------------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dielec_test.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dvpsi_e2.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c el_opt.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c hdiag.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c pcgreen.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c syme2.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c solve_e2.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c solve_e_nscf.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_ramtns.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c d2mxc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c raman_mat.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c raman.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dhdrhopsi.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c set_dvscf.f90
+ar ruv libph.a acfdtest.o add_dkmds.o add_for_charges.o add_zstar_ue.o add_zstar_ue_us.o addcore.o addnlcc.o addnlcc_zstar_eu_us.o addusddens.o addusddense.o addusdynmat.o addusldos.o allocate_part.o allocate_pert.o allocate_phq.o yambo.o bcast_ph_input.o cch_psi_all.o ccg_psi.o check_if_partial_dyn.o check_initial_status.o check_q_points_sym.o check_restart_recover.o clean_pw_ph.o clinear.o close_phq.o compute_alphasum.o compute_becalp.o compute_becsum_ph.o compute_drhous.o compute_drhous_nc.o compute_dvloc.o compute_nldyn.o compute_weight.o deallocate_part.o deallocate_phq.o d2ionq.o d2ionq_mm.o davcio_drho.o dfile_autoname.o dfile_star.o dielec.o do_phonon.o drho.o drhodv.o drhodvloc.o drhodvnl.o drhodvus.o dvanqq.o dvkb3.o dvpsi_e.o dvqpsi_us.o dvqpsi_us_only.o dyndia.o dynmat0.o dynmat_us.o dynmatcc.o dynmatrix.o ef_shift.o ep_matrix_element_wannier.o elph.o el_ph_collect.o elphon.o elph_scdft_mod.o elph_tetra_mod.o find_equiv_sites.o find_mode_sym.o find_irrep.o generate_dynamical_matrix_c.o generate_effective_charges_c.o gmressolve_all.o incdrhous.o incdrhous_nc.o initialize_ph.o init_representations.o io_dyn_mat.o io_dyn_mat_old.o io_pattern.o localdos.o mix_pot.o mode_group.o obsolete.o openfilq.o phcom.o ph_restart.o phescf.o phq_init.o phq_readin.o phq_recover.o phq_setup.o phq_summary.o phqscf.o polariz.o print_clock_ph.o prepare_q.o prepare_sym_analysis.o psidspsi.o psymdvscf.o psyme.o psym_dmag.o psym_dmage.o punch_plot_e.o q_points.o q_points_wannier.o q2qstar_ph.o random_matrix.o read_wfc_rspace_and_fwfft.o rotate_dvscf_star.o rotate_and_add_dyn.o rotate_pattern_add.o run_nscf.o save_ph_input.o set_asr_c.o set_drhoc.o set_int12_nc.o set_irr.o set_irr_nosym.o set_irr_sym.o set_small_group_of_q.o setlocq.o sgam_ph.o solve_e.o solve_e_fpol.o solve_linter.o star_q.o stop_ph.o summarize.o sym_and_write_zue.o sym_def.o sym_dmag.o sym_dmage.o symdvscf.o symdyn_munu.o symdynph_gq.o syme.o symm.o symmorphic_or_nzb.o transform_int_so.o transform_int_nc.o transform_alphasum_nc.o transform_alphasum_so.o tra_write_matrix.o trntnsc.o write_epsilon_and_zeu.o write_qplot_data.o write_matrix.o write_modes.o write_rec.o zstar_eu.o zstar_eu_us.o psyme2.o chi_test.o dielec_test.o dvpsi_e2.o el_opt.o hdiag.o pcgreen.o ramanm.o syme2.o solve_e2.o solve_e_nscf.o write_ramtns.o d2mxc.o raman_mat.o raman.o dhdrhopsi.o set_dvscf.o
+ar: creating libph.a
+a - acfdtest.o
+a - add_dkmds.o
+a - add_for_charges.o
+a - add_zstar_ue.o
+a - add_zstar_ue_us.o
+a - addcore.o
+a - addnlcc.o
+a - addnlcc_zstar_eu_us.o
+a - addusddens.o
+a - addusddense.o
+a - addusdynmat.o
+a - addusldos.o
+a - allocate_part.o
+a - allocate_pert.o
+a - allocate_phq.o
+a - yambo.o
+a - bcast_ph_input.o
+a - cch_psi_all.o
+a - ccg_psi.o
+a - check_if_partial_dyn.o
+a - check_initial_status.o
+a - check_q_points_sym.o
+a - check_restart_recover.o
+a - clean_pw_ph.o
+a - clinear.o
+a - close_phq.o
+a - compute_alphasum.o
+a - compute_becalp.o
+a - compute_becsum_ph.o
+a - compute_drhous.o
+a - compute_drhous_nc.o
+a - compute_dvloc.o
+a - compute_nldyn.o
+a - compute_weight.o
+a - deallocate_part.o
+a - deallocate_phq.o
+a - d2ionq.o
+a - d2ionq_mm.o
+a - davcio_drho.o
+a - dfile_autoname.o
+a - dfile_star.o
+a - dielec.o
+a - do_phonon.o
+a - drho.o
+a - drhodv.o
+a - drhodvloc.o
+a - drhodvnl.o
+a - drhodvus.o
+a - dvanqq.o
+a - dvkb3.o
+a - dvpsi_e.o
+a - dvqpsi_us.o
+a - dvqpsi_us_only.o
+a - dyndia.o
+a - dynmat0.o
+a - dynmat_us.o
+a - dynmatcc.o
+a - dynmatrix.o
+a - ef_shift.o
+a - ep_matrix_element_wannier.o
+a - elph.o
+a - el_ph_collect.o
+a - elphon.o
+a - elph_scdft_mod.o
+a - elph_tetra_mod.o
+a - find_equiv_sites.o
+a - find_mode_sym.o
+a - find_irrep.o
+a - generate_dynamical_matrix_c.o
+a - generate_effective_charges_c.o
+a - gmressolve_all.o
+a - incdrhous.o
+a - incdrhous_nc.o
+a - initialize_ph.o
+a - init_representations.o
+a - io_dyn_mat.o
+a - io_dyn_mat_old.o
+a - io_pattern.o
+a - localdos.o
+a - mix_pot.o
+a - mode_group.o
+a - obsolete.o
+a - openfilq.o
+a - phcom.o
+a - ph_restart.o
+a - phescf.o
+a - phq_init.o
+a - phq_readin.o
+a - phq_recover.o
+a - phq_setup.o
+a - phq_summary.o
+a - phqscf.o
+a - polariz.o
+a - print_clock_ph.o
+a - prepare_q.o
+a - prepare_sym_analysis.o
+a - psidspsi.o
+a - psymdvscf.o
+a - psyme.o
+a - psym_dmag.o
+a - psym_dmage.o
+a - punch_plot_e.o
+a - q_points.o
+a - q_points_wannier.o
+a - q2qstar_ph.o
+a - random_matrix.o
+a - read_wfc_rspace_and_fwfft.o
+a - rotate_dvscf_star.o
+a - rotate_and_add_dyn.o
+a - rotate_pattern_add.o
+a - run_nscf.o
+a - save_ph_input.o
+a - set_asr_c.o
+a - set_drhoc.o
+a - set_int12_nc.o
+a - set_irr.o
+a - set_irr_nosym.o
+a - set_irr_sym.o
+a - set_small_group_of_q.o
+a - setlocq.o
+a - sgam_ph.o
+a - solve_e.o
+a - solve_e_fpol.o
+a - solve_linter.o
+a - star_q.o
+a - stop_ph.o
+a - summarize.o
+a - sym_and_write_zue.o
+a - sym_def.o
+a - sym_dmag.o
+a - sym_dmage.o
+a - symdvscf.o
+a - symdyn_munu.o
+a - symdynph_gq.o
+a - syme.o
+a - symm.o
+a - symmorphic_or_nzb.o
+a - transform_int_so.o
+a - transform_int_nc.o
+a - transform_alphasum_nc.o
+a - transform_alphasum_so.o
+a - tra_write_matrix.o
+a - trntnsc.o
+a - write_epsilon_and_zeu.o
+a - write_qplot_data.o
+a - write_matrix.o
+a - write_modes.o
+a - write_rec.o
+a - zstar_eu.o
+a - zstar_eu_us.o
+a - psyme2.o
+a - chi_test.o
+a - dielec_test.o
+a - dvpsi_e2.o
+a - el_opt.o
+a - hdiag.o
+a - pcgreen.o
+a - ramanm.o
+a - syme2.o
+a - solve_e2.o
+a - solve_e_nscf.o
+a - write_ramtns.o
+a - d2mxc.o
+a - raman_mat.o
+a - raman.o
+a - dhdrhopsi.o
+a - set_dvscf.o
+ranlib libph.a
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c rigid.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c write_eigenvectors.f90
+ar ruv libphaux.a rigid.o write_eigenvectors.o
+ar: creating libphaux.a
+a - rigid.o
+a - write_eigenvectors.o
+ranlib libphaux.a
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c phonon.f90
+mpif90 -static-intel  -o ph.x phonon.o libph.a \
+		 ../../LR_Modules/liblrmod.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/ph.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c dynmat.f90
+mpif90 -static-intel  -o dynmat.x dynmat.o libphaux.a libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/dynmat.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c matdyn.f90
+mpif90 -static-intel  -o matdyn.x matdyn.o libphaux.a libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/matdyn.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q2r.f90
+q2r.f90(356): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        WRITE (stdout,"(/5x,' fft-check warning: sum of imaginary terms = ',es12.6)") resi
+------------------------------------------------------------------------------^
+q2r.f90(525): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        WRITE (stdout,"(/5x,' fft-check warning: sum of imaginary terms = ',es12.6)") resi
+------------------------------------------------------------------------------^
+mpif90 -static-intel  -o q2r.x q2r.o libphaux.a libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/q2r.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q2trans.f90
+q2trans.f90(747): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        WRITE (stdout,"(/5x,' fft-check warning: sum of imaginary terms = ',e12.7)") resi
+-----------------------------------------------------------------------------^
+q2trans.f90(902): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        WRITE (stdout,"(/5x,' fft-check warning: sum of imaginary terms = ',e12.7)") resi
+-----------------------------------------------------------------------------^
+mpif90 -static-intel  -o q2trans.x q2trans.o libphaux.a libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/q2trans.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q2trans_fd.f90
+mpif90 -static-intel  -o q2trans_fd.x q2trans_fd.o libphaux.a libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/q2trans_fd.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c lambda.f90
+mpif90 -static-intel  -o lambda.x lambda.o \
+                 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/lambda.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c fqha.f90
+mpif90 -static-intel  -o fqha.x fqha.o \
+                 ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/fqha.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I../../LR_Modules -I. -c q2qstar.f90
+mpif90 -static-intel  -o q2qstar.x q2qstar.o libph.a \
+		 ../../PW/src/libpw.a ../../LR_Modules/liblrmod.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/PH/q2qstar.x . )
+make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/PH'
+( cd Gamma ; make all || exit 1 )
+make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/Gamma'
+if test -n "bindir mods libs pw" ; then \
+	( cd ../.. ; make bindir mods libs pw || exit 1 ) ; fi
+make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger'
+test -d bin || mkdir bin
+cd install ; make -f extlibs_makefile libiotk
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+if test ! -d ../S3DE; then \
+	(gzip -dc ../archive/iotk-1.2.beta.tar.gz | (cd ../; tar -xvf -)) ; \
+	if test -e Makefile_iotk; then \
+        (cp Makefile_iotk ../S3DE/iotk/src/Makefile); fi; \
+	if test -e iotk_config.h; then \
+	(cp iotk_config.h ../S3DE/iotk/include/iotk_config.h); fi; fi
+cd ../S3DE/iotk/src; make lib+util; 
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+make[5]: Nothing to be done for `lib+util'.
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+cd ../bin; ln -fs ../S3DE/iotk/tools/iotk .; \
+	ln -fs ../S3DE/iotk/src/iotk.x .; \
+	ln -fs ../S3DE/iotk/src/iotk_print_kinds.x .; \
+	cd ../; ln -fs S3DE/iotk iotk
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+cd install ; make -f extlibs_makefile liblapack
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+touch fake_liblapack.a
+rm fake_liblapack.a
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+( cd LAXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+( cd FFTXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+( cd Modules ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( if test -x ../install/update_version ; then \
+	../install/update_version; \
+	else if test ! -f version.f90 ; then \
+	cat version.f90.in > version.f90 ; fi ; fi )	
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( cd clib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+if test -d PW ; then \
+	( cd PW ; make TLDEPS= all || exit 1) ; fi
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+( cd src ; make all || exit 1 )
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+if test -n "" ; then \
+	( cd ../.. ; make  || exit 1 ) ; fi
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+( cd tools ; make all || exit 1 )
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
+if test -n "" ; then \
+	( cd ../.. ; make  || exit 1 ) ; fi
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c cgcom.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c a_h.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c cg_readin.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c cg_setup.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c cg_setupdgc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c cgsolve.f90
+cgsolve.f90(130): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+        WRITE( stdout,'("   *** Conjugate Gradient minimization",   &
+---------------------------------------------------------------------^
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c d2ion.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dgradcorr.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dielec.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c drhodv.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dvb_cc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dvpsi_e.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dvpsi_kb.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dyndiar.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dynmat_init.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c dynmatcc.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c find_equiv_sites.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c generate_dynamical_matrix.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c generate_effective_charges.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c h_h.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c macro.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c phcg.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c rhod2vkb.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c solve_e.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c solve_ph.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD   -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c writedyn.f90
+mpif90 -static-intel  -o phcg.x \
+		a_h.o cg_readin.o cg_setup.o cg_setupdgc.o cgcom.o cgsolve.o d2ion.o dgradcorr.o dielec.o drhodv.o dvb_cc.o dvpsi_e.o dvpsi_kb.o dyndiar.o dynmat_init.o dynmatcc.o find_equiv_sites.o generate_dynamical_matrix.o generate_effective_charges.o h_h.o macro.o phcg.o rhod2vkb.o solve_e.o solve_ph.o writedyn.o  ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/Gamma/phcg.x . )
+ar ruv libcg.a a_h.o cg_readin.o cg_setup.o cg_setupdgc.o cgcom.o cgsolve.o d2ion.o dgradcorr.o dielec.o drhodv.o dvb_cc.o dvpsi_e.o dvpsi_kb.o dyndiar.o dynmat_init.o dynmatcc.o find_equiv_sites.o generate_dynamical_matrix.o generate_effective_charges.o h_h.o macro.o phcg.o rhod2vkb.o solve_e.o solve_ph.o writedyn.o
+ar: creating libcg.a
+a - a_h.o
+a - cg_readin.o
+a - cg_setup.o
+a - cg_setupdgc.o
+a - cgcom.o
+a - cgsolve.o
+a - d2ion.o
+a - dgradcorr.o
+a - dielec.o
+a - drhodv.o
+a - dvb_cc.o
+a - dvpsi_e.o
+a - dvpsi_kb.o
+a - dyndiar.o
+a - dynmat_init.o
+a - dynmatcc.o
+a - find_equiv_sites.o
+a - generate_dynamical_matrix.o
+a - generate_effective_charges.o
+a - h_h.o
+a - macro.o
+a - phcg.o
+a - rhod2vkb.o
+a - solve_e.o
+a - solve_ph.o
+a - writedyn.o
+ranlib libcg.a
+make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/Gamma'
+( cd FD ; make all || exit 1 )
+make[2]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/FD'
+if test -n "bindir libs pw" ; then \
+	( cd ../.. ; make bindir libs pw || exit 1 ) ; fi
+make[3]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger'
+test -d bin || mkdir bin
+cd install ; make -f extlibs_makefile libiotk
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+if test ! -d ../S3DE; then \
+	(gzip -dc ../archive/iotk-1.2.beta.tar.gz | (cd ../; tar -xvf -)) ; \
+	if test -e Makefile_iotk; then \
+        (cp Makefile_iotk ../S3DE/iotk/src/Makefile); fi; \
+	if test -e iotk_config.h; then \
+	(cp iotk_config.h ../S3DE/iotk/include/iotk_config.h); fi; fi
+cd ../S3DE/iotk/src; make lib+util; 
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+make[5]: Nothing to be done for `lib+util'.
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/S3DE/iotk/src'
+cd ../bin; ln -fs ../S3DE/iotk/tools/iotk .; \
+	ln -fs ../S3DE/iotk/src/iotk.x .; \
+	ln -fs ../S3DE/iotk/src/iotk_print_kinds.x .; \
+	cd ../; ln -fs S3DE/iotk iotk
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+cd install ; make -f extlibs_makefile liblapack
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+touch fake_liblapack.a
+rm fake_liblapack.a
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/install'
+( cd LAXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/LAXlib'
+( cd FFTXlib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/FFTXlib'
+( cd Modules ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( if test -x ../install/update_version ; then \
+	../install/update_version; \
+	else if test ! -f version.f90 ; then \
+	cat version.f90.in > version.f90 ; fi ; fi )	
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/Modules'
+( cd clib ; make TLDEPS= all || exit 1 )
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/clib'
+if test -d PW ; then \
+	( cd PW ; make TLDEPS= all || exit 1) ; fi
+make[4]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+( cd src ; make all || exit 1 )
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+if test -n "" ; then \
+	( cd ../.. ; make  || exit 1 ) ; fi
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/src'
+( cd tools ; make all || exit 1 )
+make[5]: Entering directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
+if test -n "" ; then \
+	( cd ../.. ; make  || exit 1 ) ; fi
+make[5]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW/tools'
+make[4]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PW'
+make[3]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger'
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c fd.f90
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c stop_pp.f90
+ar ruv libfd.a stop_pp.o
+ar: creating libfd.a
+a - stop_pp.o
+ranlib libfd.a
+mpif90 -static-intel  -o fd.x \
+	fd.o libfd.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core     
+( cd ../../bin ; ln -fs ../PHonon/FD/fd.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c fd_ifc.f90
+mpif90 -static-intel  -o fd_ifc.x \
+	fd_ifc.o libfd.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/FD/fd_ifc.x . )
+mpif90 -O2 -assume byterecl -g -traceback -nomodule -fpp -D__DFTI -D__MPI -D__XSD  -I/home/fonari/QE-builds/q-e_schrodinger//include -I../include/ -I/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/include -I../../iotk/src -I../../Modules -I../../LAXlib -I../../FFTXlib -I../../PW/src -I. -c fd_ef.f90
+mpif90 -static-intel  -o fd_ef.x \
+	fd_ef.o libfd.a ../../PW/src/libpw.a ../../Modules/libqemod.a ../../FFTXlib/libqefft.a ../../LAXlib/libqela.a /home/fonari/QE-builds/q-e_schrodinger//clib/clib.a /home/fonari/QE-builds/q-e_schrodinger//iotk/src/libiotk.a    -L/nfs/builds/NB/2017-3/2017-06-13/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64 -lmkl_intel_lp64  -lmkl_sequential -lmkl_core    
+( cd ../../bin ; ln -fs ../PHonon/FD/fd_ef.x . )
+make[2]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon/FD'
+make[1]: Leaving directory `/home/fonari/QE-builds/q-e_schrodinger/PHonon'
 bin/generate_vdW_kernel_table.x
-[nyc-bld-lv01:22905] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:22906] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:22906] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_plm_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:22906] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ras_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:22905] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_ofud: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:22905] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_openib: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06755] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06756] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06756] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_plm_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06756] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ras_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06755] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_ofud: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06755] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_openib: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
 bin/generate_rVV10_kernel_table.x
-[nyc-bld-lv01:24194] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:24195] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:24195] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_plm_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:24195] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ras_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:24194] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_ofud: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
-[nyc-bld-lv01:24194] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_openib: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06953] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06954] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ess_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06954] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_plm_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06954] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_ras_lsf: libbat.so: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06953] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_ofud: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
+[nyc-bld-lv01:06953] mca: base: component_find: unable to open /software/lib/Linux-x86_64/openmpi-1.6.5-build3/lib/openmpi/mca_btl_openib: libibverbs.so.1: cannot open shared object file: No such file or directory (ignored)
 ./bin/pw.x
 ./bin/qexsd/
 ./bin/qexsd/.gitignore
@@ -2533,8 +3255,11 @@ bin/generate_rVV10_kernel_table.x
 ./bin/dos.x
 ./bin/projwfc.x
 ./bin/neb.x
+./bin/ph.x
+./bin/dynmat.x
 ./rVV10_kernel_table
 ./vdW_kernel_table
+./run_qe
 Current branch master is up to date.
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
