@@ -1,8 +1,16 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
-Current branch master is up to date.
+error: Cannot pull with rebase: You have unstaged changes.
 Already on 'master'
+M	bin/qexsd/qespresso/cards.py
+M	bin/qexsd/qespresso/converters.py
+M	bin/qexsd/qespresso/documents.py
+M	bin/qexsd/qespresso/options.py
+M	bin/qexsd/qespresso/scheme/qes.xsd
+M	bin/qexsd/qespresso/scheme/qes_neb_temp.xsd
+M	bin/qexsd/qespresso/scheme/qes_with_choice_no_nesting.xsd
+M	bin/qexsd/qespresso/utils/xml2qeinput.py
 Your branch is up-to-date with 'origin/master'.
-Current branch master is up to date.
+error: Cannot pull with rebase: You have unstaged changes.
 q-e_schrodinger branch = master (38d036e)
 MMSHARE_DIR = /nfs/builds/NB/2017-3/2017-06-15/Linux-x86_64/mmshare-v3.9
 LD_LIBRARY_PATH = /nfs/builds/NB/2017-3/2017-06-15/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-3/2017-06-15/Linux-x86_64/mmshare-v3.9/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
