@@ -1,15 +1,13 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
 No local changes to save
-From https://github.com/QEF/q-e_schrodinger
- * [new tag]         v6.1-2017-3 -> v6.1-2017-3
 Current branch master is up to date.
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Current branch master is up to date.
-q-e_schrodinger branch = master (e654074)
-MMSHARE_DIR = /nfs/builds/NB/2017-4/2017-08-02/Linux-x86_64/mmshare-v4.0
-LD_LIBRARY_PATH = /nfs/builds/NB/2017-4/2017-08-02/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-4/2017-08-02/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
-PATH = /nfs/builds/NB/2017-4/2017-08-02/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/scr/fonari/mmshare/build_tools/waf:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
+q-e_schrodinger branch = master (81ee7de)
+MMSHARE_DIR = /nfs/builds/NB/2017-4/2017-08-22/Linux-x86_64/mmshare-v4.0
+LD_LIBRARY_PATH = /nfs/builds/NB/2017-4/2017-08-22/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-4/2017-08-22/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64
+PATH = /nfs/builds/NB/2017-4/2017-08-22/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/scr/fonari/mmshare/build_tools/waf:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
 MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/pw.x
 ./bin/qexsd/
@@ -129,6 +127,9 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/qespresso/utils/mapping.py
 ./bin/qexsd/qespresso/utils/xml2nebinput.py
 ./bin/qexsd/qespresso/utils/xml2qeinput.py
+./bin/qexsd/qespresso/utils/__init__.pyc
+./bin/qexsd/qespresso/utils/mapping.pyc
+./bin/qexsd/qespresso/utils/logger.pyc
 ./bin/qexsd/qespresso/xsdtypes/
 ./bin/qexsd/qespresso/xsdtypes/__init__.py
 ./bin/qexsd/qespresso/xsdtypes/etree.py
@@ -136,7 +137,19 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/qespresso/xsdtypes/xmldocument.py
 ./bin/qexsd/qespresso/xsdtypes/xmlschema.py
 ./bin/qexsd/qespresso/xsdtypes/xsdtypes.py
+./bin/qexsd/qespresso/xsdtypes/__init__.pyc
+./bin/qexsd/qespresso/xsdtypes/etree.pyc
+./bin/qexsd/qespresso/xsdtypes/xsdtypes.pyc
+./bin/qexsd/qespresso/xsdtypes/exceptions.pyc
+./bin/qexsd/qespresso/xsdtypes/xmlschema.pyc
+./bin/qexsd/qespresso/xsdtypes/xmldocument.pyc
 ./bin/qexsd/qespresso/options.py
+./bin/qexsd/qespresso/__init__.pyc
+./bin/qexsd/qespresso/documents.pyc
+./bin/qexsd/qespresso/converters.pyc
+./bin/qexsd/qespresso/cards.pyc
+./bin/qexsd/qespresso/options.pyc
+./bin/qexsd/qespresso/exceptions.pyc
 ./bin/qexsd/tests/
 ./bin/qexsd/tests/test_converters.py
 ./bin/dos.x
@@ -144,10 +157,11 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/neb.x
 ./bin/ph.x
 ./bin/dynmat.x
+./bin/matdyn.x
 ./rVV10_kernel_table
 ./vdW_kernel_table
 ./run_qe
-Current branch 2017-3 is up to date.
-Switched to branch 'master'
+Current branch master is up to date.
+Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Current branch master is up to date.
