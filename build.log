@@ -1,10 +1,82 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
-Saved working directory and index state WIP on master: 76b73cd energy step elements was converted in Hartree units twice
-HEAD is now at 76b73cd energy step elements was converted in Hartree units twice
-Current branch master is up to date.
+No git stash/pull
 Already on 'master'
+M	bin/qexsd/.gitignore
+M	bin/qexsd/LICENSE
+M	bin/qexsd/README.rst
+M	bin/qexsd/examples/NEB/Al001+H_bc3.in
+M	bin/qexsd/examples/NEB/Al001+H_bc3.xml
+M	bin/qexsd/examples/NEB/Al001+H_pbc.in
+M	bin/qexsd/examples/NEB/Al001+H_pbc.xml
+M	bin/qexsd/examples/NEB/H2+H.in
+M	bin/qexsd/examples/NEB/H2+H.xml
+M	bin/qexsd/examples/PHonon/al.elph.xml
+M	bin/qexsd/examples/PHonon/alas_ph.xml
+M	bin/qexsd/examples/PHonon/alas_recover.xml
+M	bin/qexsd/examples/PHonon/ch4_nm.xml
+M	bin/qexsd/examples/PHonon/sio2_dielectric.xml
+M	bin/qexsd/examples/PHonon/sio2_prova_disp.xml
+M	bin/qexsd/examples/PHonon/sio2_prova_qplot.xml
+M	bin/qexsd/examples/PW/Al001_relax_bfgs.in
+M	bin/qexsd/examples/PW/Al001_relax_bfgs.xml
+M	bin/qexsd/examples/PW/Al001_rlx_damp.in
+M	bin/qexsd/examples/PW/Al001_rlx_damp.xml
+M	bin/qexsd/examples/PW/Al_bands.in
+M	bin/qexsd/examples/PW/Al_bands.xml
+M	bin/qexsd/examples/PW/CO_bgfs_relax.in
+M	bin/qexsd/examples/PW/CO_bgfs_relax.xml
+M	bin/qexsd/examples/PW/FeO_LDAU_standard.in
+M	bin/qexsd/examples/PW/FeO_LDAU_standard.xml
+M	bin/qexsd/examples/PW/FeO_LDAU_with_no_U.in
+M	bin/qexsd/examples/PW/FeO_LDAU_with_no_U.xml
+M	bin/qexsd/examples/PW/FeO_LDAU_with_starting_ns.in
+M	bin/qexsd/examples/PW/FeO_LDAU_with_starting_ns.xml
+M	bin/qexsd/examples/PW/Fe_non_collinear_penalty.in
+M	bin/qexsd/examples/PW/Fe_non_collinear_penalty.xml
+M	bin/qexsd/examples/PW/Fe_noncolin.in
+M	bin/qexsd/examples/PW/Fe_noncolin.xml
+M	bin/qexsd/examples/PW/PbTiO3_BerryPhase.in
+M	bin/qexsd/examples/PW/PbTiO3_BerryPhase.xml
+M	bin/qexsd/examples/PW/PbTiO3_scf.in
+M	bin/qexsd/examples/PW/PbTiO3_scf.xml
+M	bin/qexsd/examples/PW/Pt_spinorbit.in
+M	bin/qexsd/examples/PW/Pt_spinorbit.xml
+M	bin/qexsd/examples/PW/Si_md.in
+M	bin/qexsd/examples/PW/Si_md.xml
+M	bin/qexsd/input_xml_verified/PbTiO3_scf_2.in
+M	bin/qexsd/input_xml_verified/PbTiO3_scf_2.xml
+M	bin/qexsd/input_xml_verified/al.bands_2.in
+M	bin/qexsd/input_xml_verified/al.bands_2.xml
+M	bin/qexsd/input_xml_verified/al.scf.david_2.in
+M	bin/qexsd/input_xml_verified/al.scf.david_2.xml
+M	bin/qexsd/input_xml_verified/al_bands_prova.xml
+M	bin/qexsd/input_xml_verified/si.scf.cg_2.in
+M	bin/qexsd/input_xml_verified/si.scf.cg_2.xml
+M	bin/qexsd/input_xml_verified/si.scf.davidson_2.in
+M	bin/qexsd/input_xml_verified/si.scf.davidson_2.xml
+M	bin/qexsd/qespresso/__init__.py
+M	bin/qexsd/qespresso/cards.py
+M	bin/qexsd/qespresso/converters.py
+M	bin/qexsd/qespresso/documents.py
+M	bin/qexsd/qespresso/exceptions.py
+M	bin/qexsd/qespresso/options.py
+M	bin/qexsd/qespresso/scheme/ph_temp.xsd
+M	bin/qexsd/qespresso/scheme/qes.xsd
+M	bin/qexsd/qespresso/scheme/qes_neb.xsd
+M	bin/qexsd/qespresso/scheme/qes_neb_temp.xsd
+M	bin/qexsd/qespresso/scheme/qes_with_choice_no_nesting.xsd
+M	bin/qexsd/qespresso/utils/__init__.py
+M	bin/qexsd/qespresso/utils/logger.py
+M	bin/qexsd/qespresso/utils/mapping.py
+M	bin/qexsd/qespresso/xsdtypes/__init__.py
+M	bin/qexsd/qespresso/xsdtypes/etree.py
+M	bin/qexsd/qespresso/xsdtypes/exceptions.py
+M	bin/qexsd/qespresso/xsdtypes/xmldocument.py
+M	bin/qexsd/qespresso/xsdtypes/xmlschema.py
+M	bin/qexsd/qespresso/xsdtypes/xsdtypes.py
+M	bin/qexsd/tests/test_converters.py
 Your branch is up-to-date with 'origin/master'.
-Current branch master is up to date.
+error: Cannot pull with rebase: You have unstaged changes.
 q-e_schrodinger branch = master (76b73cd)
 MMSHARE_DIR = /nfs/builds/NB/2017-4/2017-08-30/Linux-x86_64/mmshare-v4.0
 LD_LIBRARY_PATH = /nfs/builds/NB/2017-4/2017-08-30/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/nfs/builds/NB/2017-4/2017-08-30/Linux-x86_64/mmshare-v4.0/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
@@ -14,36 +86,41 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/
 ./bin/qexsd/examples/
 ./bin/qexsd/examples/NEB/
+./bin/qexsd/examples/NEB/Al001+H_bc3.in
 ./bin/qexsd/examples/NEB/Al001+H_bc3.xml
 ./bin/qexsd/examples/NEB/Al001+H_pbc.in
 ./bin/qexsd/examples/NEB/Al001+H_pbc.xml
 ./bin/qexsd/examples/NEB/H2+H.in
 ./bin/qexsd/examples/NEB/H2+H.xml
-./bin/qexsd/examples/NEB/H2+H_crystal.in
 ./bin/qexsd/examples/NEB/H2+H_crystal.xml
-./bin/qexsd/examples/NEB/Al001+H_bc3.in
+./bin/qexsd/examples/NEB/H2+H_crystal.in
 ./bin/qexsd/examples/PHonon/
 ./bin/qexsd/examples/PHonon/al.elph.xml
+./bin/qexsd/examples/PHonon/alas_ph.xml
 ./bin/qexsd/examples/PHonon/alas_recover.xml
 ./bin/qexsd/examples/PHonon/ch4_nm.xml
 ./bin/qexsd/examples/PHonon/sio2_dielectric.xml
 ./bin/qexsd/examples/PHonon/sio2_prova_disp.xml
 ./bin/qexsd/examples/PHonon/sio2_prova_qplot.xml
-./bin/qexsd/examples/PHonon/alas_ph.xml
 ./bin/qexsd/examples/PW/
 ./bin/qexsd/examples/PW/Al001_relax_bfgs.in
 ./bin/qexsd/examples/PW/Al001_relax_bfgs.xml
+./bin/qexsd/examples/PW/Al001_rlx_damp.in
 ./bin/qexsd/examples/PW/Al001_rlx_damp.xml
 ./bin/qexsd/examples/PW/Al_bands.in
 ./bin/qexsd/examples/PW/Al_bands.xml
 ./bin/qexsd/examples/PW/CO_bgfs_relax.in
 ./bin/qexsd/examples/PW/CO_bgfs_relax.xml
+./bin/qexsd/examples/PW/Fe_non_collinear_penalty.in
+./bin/qexsd/examples/PW/Fe_non_collinear_penalty.xml
+./bin/qexsd/examples/PW/Fe_noncolin.in
+./bin/qexsd/examples/PW/Fe_noncolin.xml
 ./bin/qexsd/examples/PW/FeO_LDAU_standard.in
+./bin/qexsd/examples/PW/FeO_LDAU_standard.xml
 ./bin/qexsd/examples/PW/FeO_LDAU_with_no_U.in
 ./bin/qexsd/examples/PW/FeO_LDAU_with_no_U.xml
 ./bin/qexsd/examples/PW/FeO_LDAU_with_starting_ns.in
-./bin/qexsd/examples/PW/Fe_non_collinear_penalty.in
-./bin/qexsd/examples/PW/Fe_non_collinear_penalty.xml
+./bin/qexsd/examples/PW/FeO_LDAU_with_starting_ns.xml
 ./bin/qexsd/examples/PW/PbTiO3_BerryPhase.in
 ./bin/qexsd/examples/PW/PbTiO3_BerryPhase.xml
 ./bin/qexsd/examples/PW/PbTiO3_scf.in
@@ -52,69 +129,49 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/examples/PW/Pt_spinorbit.xml
 ./bin/qexsd/examples/PW/Si_md.in
 ./bin/qexsd/examples/PW/Si_md.xml
-./bin/qexsd/examples/PW/Al001_rlx_damp.in
-./bin/qexsd/examples/PW/FeO_LDAU_standard.xml
-./bin/qexsd/examples/PW/FeO_LDAU_with_starting_ns.xml
-./bin/qexsd/examples/PW/Fe_noncolin.in
-./bin/qexsd/examples/PW/Fe_noncolin.xml
-./bin/qexsd/README.rst
+./bin/qexsd/.gitignore
 ./bin/qexsd/input_xml_verified/
+./bin/qexsd/input_xml_verified/al.bands_2.in
 ./bin/qexsd/input_xml_verified/al.bands_2.xml
 ./bin/qexsd/input_xml_verified/al.scf.david_2.in
 ./bin/qexsd/input_xml_verified/al.scf.david_2.xml
 ./bin/qexsd/input_xml_verified/al_bands_prova.xml
+./bin/qexsd/input_xml_verified/PbTiO3_scf_2.in
 ./bin/qexsd/input_xml_verified/PbTiO3_scf_2.xml
-./bin/qexsd/input_xml_verified/al.bands_2.in
 ./bin/qexsd/input_xml_verified/si.scf.cg_2.in
 ./bin/qexsd/input_xml_verified/si.scf.cg_2.xml
 ./bin/qexsd/input_xml_verified/si.scf.davidson_2.in
 ./bin/qexsd/input_xml_verified/si.scf.davidson_2.xml
-./bin/qexsd/input_xml_verified/PbTiO3_scf_2.in
 ./bin/qexsd/qespresso/
+./bin/qexsd/qespresso/__init__.py
 ./bin/qexsd/qespresso/cards.py
 ./bin/qexsd/qespresso/converters.py
 ./bin/qexsd/qespresso/documents.py
 ./bin/qexsd/qespresso/exceptions.py
 ./bin/qexsd/qespresso/scheme/
+./bin/qexsd/qespresso/scheme/ph_temp.xsd
 ./bin/qexsd/qespresso/scheme/qes.xsd
 ./bin/qexsd/qespresso/scheme/qes_neb.xsd
 ./bin/qexsd/qespresso/scheme/qes_neb_temp.xsd
 ./bin/qexsd/qespresso/scheme/qes_with_choice_no_nesting.xsd
-./bin/qexsd/qespresso/scheme/ph_temp.xsd
+./bin/qexsd/qespresso/options.py
 ./bin/qexsd/qespresso/utils/
+./bin/qexsd/qespresso/utils/__init__.py
 ./bin/qexsd/qespresso/utils/logger.py
 ./bin/qexsd/qespresso/utils/mapping.py
 ./bin/qexsd/qespresso/utils/xml2nebinput.py
 ./bin/qexsd/qespresso/utils/xml2qeinput.py
-./bin/qexsd/qespresso/utils/__init__.pyc
-./bin/qexsd/qespresso/utils/mapping.pyc
-./bin/qexsd/qespresso/utils/logger.pyc
-./bin/qexsd/qespresso/utils/__init__.py
 ./bin/qexsd/qespresso/xsdtypes/
+./bin/qexsd/qespresso/xsdtypes/__init__.py
 ./bin/qexsd/qespresso/xsdtypes/etree.py
 ./bin/qexsd/qespresso/xsdtypes/exceptions.py
 ./bin/qexsd/qespresso/xsdtypes/xmldocument.py
 ./bin/qexsd/qespresso/xsdtypes/xmlschema.py
 ./bin/qexsd/qespresso/xsdtypes/xsdtypes.py
-./bin/qexsd/qespresso/xsdtypes/__init__.pyc
-./bin/qexsd/qespresso/xsdtypes/etree.pyc
-./bin/qexsd/qespresso/xsdtypes/xsdtypes.pyc
-./bin/qexsd/qespresso/xsdtypes/exceptions.pyc
-./bin/qexsd/qespresso/xsdtypes/xmlschema.pyc
-./bin/qexsd/qespresso/xsdtypes/xmldocument.pyc
-./bin/qexsd/qespresso/xsdtypes/__init__.py
-./bin/qexsd/qespresso/__init__.pyc
-./bin/qexsd/qespresso/documents.pyc
-./bin/qexsd/qespresso/converters.pyc
-./bin/qexsd/qespresso/cards.pyc
-./bin/qexsd/qespresso/options.pyc
-./bin/qexsd/qespresso/exceptions.pyc
-./bin/qexsd/qespresso/__init__.py
-./bin/qexsd/qespresso/options.py
 ./bin/qexsd/LICENSE
 ./bin/qexsd/tests/
 ./bin/qexsd/tests/test_converters.py
-./bin/qexsd/.gitignore
+./bin/qexsd/README.rst
 ./bin/dos.x
 ./bin/projwfc.x
 ./bin/neb.x
