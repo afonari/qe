@@ -1,16 +1,16 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
 No git stash/pull
 q-e_schrodinger branch = afonari-patch-2 (afba9c6)
-MMSHARE_DIR = /home/fonari/QE-builds/2017-4/mmshare-v4.0
-LD_LIBRARY_PATH = /home/fonari/QE-builds/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/home/fonari/QE-builds/2017-4/mmshare-v4.0/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64
-PATH = /home/fonari/QE-builds/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/home/fonari/QE-builds/2017-4/buildvenv/6332acc/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/scr/fonari/2017-4/buildvenv/6332acc/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
+MMSHARE_DIR = /scr/fonari/2017-4/mmshare-v4.0
+LD_LIBRARY_PATH = /scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/lib:/scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64:/software/lib/Linux-x86_64/qt-5.6.2-build2/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib
+PATH = /scr/fonari/2017-4/mmshare-v4.0/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/software/lib/Linux-x86_64/qt-5.6.2-build2/bin:/software/lib/Linux-x86_64/pyqt-5.8/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/scr/fonari/2017-4/buildvenv/6332acc/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
 MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/pw.x
 ./bin/qexsd/
 ./bin/qexsd/examples/
 ./bin/qexsd/examples/NEB/
-./bin/qexsd/examples/NEB/Al001+H_bc3.xml
 ./bin/qexsd/examples/NEB/Al001+H_bc3.in
+./bin/qexsd/examples/NEB/Al001+H_bc3.xml
 ./bin/qexsd/examples/NEB/Al001+H_pbc.in
 ./bin/qexsd/examples/NEB/Al001+H_pbc.xml
 ./bin/qexsd/examples/NEB/H2+H.in
@@ -18,8 +18,8 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/examples/NEB/H2+H_crystal.in
 ./bin/qexsd/examples/NEB/H2+H_crystal.xml
 ./bin/qexsd/examples/PHonon/
-./bin/qexsd/examples/PHonon/alas_ph.xml
 ./bin/qexsd/examples/PHonon/al.elph.xml
+./bin/qexsd/examples/PHonon/alas_ph.xml
 ./bin/qexsd/examples/PHonon/alas_recover.xml
 ./bin/qexsd/examples/PHonon/ch4_nm.xml
 ./bin/qexsd/examples/PHonon/sio2_dielectric.xml
@@ -52,11 +52,12 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/examples/PW/Pt_spinorbit.xml
 ./bin/qexsd/examples/PW/Si_md.in
 ./bin/qexsd/examples/PW/Si_md.xml
+./bin/qexsd/.gitignore
 ./bin/qexsd/input_xml_verified/
 ./bin/qexsd/input_xml_verified/al.bands_2.in
 ./bin/qexsd/input_xml_verified/al.bands_2.xml
-./bin/qexsd/input_xml_verified/al.scf.david_2.xml
 ./bin/qexsd/input_xml_verified/al.scf.david_2.in
+./bin/qexsd/input_xml_verified/al.scf.david_2.xml
 ./bin/qexsd/input_xml_verified/al_bands_prova.xml
 ./bin/qexsd/input_xml_verified/PbTiO3_scf_2.in
 ./bin/qexsd/input_xml_verified/PbTiO3_scf_2.xml
@@ -65,8 +66,8 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/input_xml_verified/si.scf.davidson_2.in
 ./bin/qexsd/input_xml_verified/si.scf.davidson_2.xml
 ./bin/qexsd/qespresso/
-./bin/qexsd/qespresso/cards.py
 ./bin/qexsd/qespresso/__init__.py
+./bin/qexsd/qespresso/cards.py
 ./bin/qexsd/qespresso/converters.py
 ./bin/qexsd/qespresso/documents.py
 ./bin/qexsd/qespresso/exceptions.py
@@ -80,8 +81,8 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/qespresso/utils/
 ./bin/qexsd/qespresso/utils/__init__.py
 ./bin/qexsd/qespresso/utils/logger.py
-./bin/qexsd/qespresso/utils/xml2nebinput.py
 ./bin/qexsd/qespresso/utils/mapping.py
+./bin/qexsd/qespresso/utils/xml2nebinput.py
 ./bin/qexsd/qespresso/utils/xml2qeinput.py
 ./bin/qexsd/qespresso/xsdtypes/
 ./bin/qexsd/qespresso/xsdtypes/__init__.py
@@ -90,9 +91,9 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./bin/qexsd/qespresso/xsdtypes/xmldocument.py
 ./bin/qexsd/qespresso/xsdtypes/xmlschema.py
 ./bin/qexsd/qespresso/xsdtypes/xsdtypes.py
+./bin/qexsd/LICENSE
 ./bin/qexsd/tests/
 ./bin/qexsd/tests/test_converters.py
-./bin/qexsd/LICENSE
 ./bin/qexsd/README.rst
 ./bin/dos.x
 ./bin/projwfc.x
@@ -103,9 +104,10 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 ./rVV10_kernel_table
 ./vdW_kernel_table
 ./run_qe
+Inside /home/fonari/QE-builds/qe
 Already up-to-date.
-Current branch master is up to date.
-Already on 'master'
+Current branch 2017-4 is up to date.
+Already on '2017-4'
 Your branch is up-to-date with 'origin/master'.
 Already up-to-date.
-Current branch master is up to date.
+Current branch 2017-4 is up to date.
