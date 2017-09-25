@@ -107,6 +107,6 @@ MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 Inside /home/fonari/QE-builds/qe
 Current branch 2017-4 is up to date.
 Already on '2017-4'
-Your branch is ahead of 'origin/master' by 1 commit.
+Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 Current branch 2017-4 is up to date.
