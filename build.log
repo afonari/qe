@@ -19,6 +19,6 @@ LDFLAGS = -L/nfs/software/lib/Linux-x86_64/gcc-4.9.3/bin/../lib/gcc/x86_64-unkno
 Inside /home/fonari/QE-builds/qe
 Current branch 2017-4 is up to date.
 Already on '2017-4'
-Your branch is ahead of 'origin/master' by 11 commits.
+Your branch is ahead of 'origin/master' by 12 commits.
   (use "git push" to publish your local commits)
 Current branch 2017-4 is up to date.
