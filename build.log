@@ -1,9 +1,9 @@
 Inside /home/fonari/QE-builds/q-e_schrodinger
 No git stash/pull
-q-e_schrodinger branch = merge-with-qe-5221fa5 (72823f9a6)
+q-e_schrodinger branch = merge-with-qe-5221fa5 (dbed9181a)
 MMSHARE_DIR = /scr/fonari/2018-2/mmshare-v4.2
 LD_LIBRARY_PATH = /scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/lib:/scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib:/software/lib/Linux-x86_64/qt-5.9.4/lib:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib/intel64:/software/lib/Linux-x86_64/ifort_2017.1.132/compiler/lib/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/lib:/software/lib/Linux-x86_64/gcc-4.9.3/lib64:/software/lib/Linux-x86_64/Tcl_Tk-8.5.5/lib:/software/lib/Linux-x86_64/python-2.7.13/lib:/scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/lib:/scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64:/software/lib/Linux-x86_64/ifort_2017.1.132/mkl/lib:/software/lib/Linux-x86_64/python-3.6.2/lib
-PATH = /scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/software/lib/Linux-x86_64/qt-5.9.4/bin:/software/lib/Linux-x86_64/pyqt-5.10/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/scr/fonari/2018-2/buildvenv/3594cdf/bin:/software/lib/Linux-x86_64/python-3.6.2/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/bin:/scr/fonari/2018-2/buildvenv/3019a41/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
+PATH = /scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/bin:/software/lib/Linux-x86_64/valgrind-3.11.0/bin:/software/lib/Linux-x86_64/qt-5.9.4/bin:/software/lib/Linux-x86_64/pyqt-5.10/bin:/software/lib/Linux-x86_64/perl-5.14.2/bin:/software/lib/Linux-x86_64/perceptualdiff-1.1.1:/software/lib/Linux-x86_64/jdk1.8.0_60/bin:/software/lib/Linux-x86_64/ifort_2017.1.132/bin/intel64:/software/lib/Linux-x86_64/grpc-1.0.1/bin:/software/lib/Linux-x86_64/go-1.8.1/bin:/software/lib/Linux-x86_64/gcc-4.9.3/bin:/software/lib/Linux-x86_64/llvm+clang-3.7.1/bin:/software/lib/Linux-x86_64/binutils-2.24/bin:/scr/fonari/2018-2/buildvenv/916dbfa/bin:/software/lib/Linux-x86_64/python-3.6.2/bin:/software/lib/Linux-x86_64/python-2.7.13/bin:/scr/fonari/2018-2/mmshare-v4.2/lib/Linux-x86_64/openmpi/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/utils/bin:/usr/bin
 MKLROOT = /software/lib/Linux-x86_64/ifort_2017.1.132/mkl
 LDFLAGS = -L/nfs/software/lib/Linux-x86_64/gcc-4.9.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.3/../../../../lib64 -L/usr/lib/../lib64 -Wl,-rpath=/nfs/software/lib/Linux-x86_64/gcc-4.9.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.3/../../../../lib64,-rpath=/usr/lib/../lib64
 ./bin/pw.x
@@ -13,12 +13,16 @@ LDFLAGS = -L/nfs/software/lib/Linux-x86_64/gcc-4.9.3/bin/../lib/gcc/x86_64-unkno
 ./bin/ph.x
 ./bin/dynmat.x
 ./bin/matdyn.x
+./bin/turbo_davidson.x
+./bin/turbo_eels.x
+./bin/turbo_lanczos.x
+./bin/turbo_spectrum.x
 ./rVV10_kernel_table
 ./vdW_kernel_table
 ./run_qe
 Inside /home/fonari/QE-builds/qe
 Current branch 2018-2 is up to date.
 Already on '2018-2'
-Your branch is ahead of 'origin/master' by 1 commit.
+Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 Current branch 2018-2 is up to date.
